@@ -2,7 +2,7 @@ on: [workflow_dispatch]
 
 jobs:
   hello-world:
-    runs-on: ubuntu-latest
+    runs-on: Team & Enterprise
     steps:
       - uses: actions/create-github-app-token@v1
         id: app-token
