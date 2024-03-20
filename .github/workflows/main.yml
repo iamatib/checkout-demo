@@ -9,8 +9,7 @@ jobs:
         with:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
-          repositories: 'checkout-test`
-
+          repositories: 'checkout-test'
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
